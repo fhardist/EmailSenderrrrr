@@ -26,8 +26,8 @@ Google melarang login menggunakan password utama demi keamanan. Kamu **wajib** m
 
 ## 📁 2. Struktur File di Dalam Project
 Pastikan susunan file di lokal penyimpanan kamu mengikuti struktur berikut:
-*   `bot.py` -> Script utama untuk versi HP (Termux).
-*   `bot_laptop.py` -> Script utama untuk versi Laptop/PC.
+*   `bot_termux.py` -> Script utama untuk versi HP (Termux).
+*   `bot_cmd.py` -> Script utama untuk versi Laptop/PC.
 *   `body.txt` -> File teks berisi isi pesan/surat lamaran email kamu.
 *   `CV_Kamu.pdf` -> File PDF CV kamu yang akan otomatis terlampir.
 
@@ -44,8 +44,8 @@ Dapatkan seluruh file project langsung dari GitHub dengan mengetik tabel perinta
 | 1 | `pkg update && pkg upgrade -y` | Update system Termux |
 | 2 | `pkg install python git -y` | Install Python & Git |
 | 3 | `termux-setup-storage` | Beri izin akses memori internal HP |
-| 4 | `git clone https://github.com/USERNAME_LU/EmailSender.git` | Download repositori dari GitHub lu |
-| 5 | `cd EmailSender` | Masuk ke folder project |
+| 4 | `[git clone https://github.com/USERNAME_LU/EmailSender.git](https://github.com/fhardist/EmailSenderrrrr.git)` | Download repositori dari GitHub lu |
+| 5 | `cd EmailSender` | Masuk ke folder project jika tidak bisa coba cd EmailSenderrrrr|
 
 > ⚠️ **PENTING Setelah Clone:** Jangan lupa masukkan file CV PDF kamu ke folder Download HP, lalu ganti nama file PDF di dalam kode `bot.py` sesuai nama CV asli kamu.
 
